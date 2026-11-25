@@ -43,7 +43,7 @@ Everything works offline, needs no account and no API key, and the notes never l
 ## Technologies Used
 
 - React and Vite for the app
-- Plain CSS written from scratch: graph-paper study desk theme, Space Grotesk headings with Inter body text, self-hosted fonts so it works offline
+- Design system: Tailwind CSS with shadcn-style design tokens and reusable components (buttons, cards, badges, inputs, progress bars), Lucide icons, Bricolage Grotesque headings with Inter body text, self-hosted fonts so it works offline
 - Machine learning written from scratch in plain JavaScript: TF-IDF, extractive sentence ranking, multinomial naive Bayes with Laplace smoothing, cloze-based question generation with a seeded shuffle
 - localStorage for saved note sets
 - The ML logic is pure functions in one file, covered by 20 unit tests plus 22 automated browser checks, with zero console errors
@@ -90,6 +90,6 @@ Open the local address Vite prints. Load a sample note set or paste your own not
 ## Credits and acknowledgements
 
 - React and Vite (open source)
-- Space Grotesk and Inter fonts from Google Fonts (OFL licence), self-hosted in the repo
+- Bricolage Grotesque and Inter fonts from Google Fonts (OFL licence), self-hosted in the repo; Lucide icons (ISC licence)
 - The 3 sample note sets were written for this project; no real student data is used anywhere
 - All work on this project was done during the ML Empowerment Build Challenge 4.0 period (from 1 Nov 2026)

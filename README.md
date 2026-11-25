@@ -50,7 +50,7 @@ All logic lives in `src/lib/noteforge.js` as pure functions:
 ## Tech
 
 - React and Vite
-- Plain CSS written from scratch (graph-paper study desk theme, Space Grotesk and Inter, self-hosted fonts)
+- Design system: Tailwind CSS with shadcn-style design tokens and reusable components (buttons, cards, badges, inputs, progress bars), Lucide icons, Bricolage Grotesque with Inter as self-hosted fonts
 - localStorage for saved note sets
 - No backend, no external services
 
